@@ -1,0 +1,31 @@
+<%- include ('parcials/head') -%>
+
+<div class="container">
+    <div class="row">
+        <div class="col-10 offset-1">
+            <h3>Account list</h3>
+            <div class="row">
+                <table class="table">
+                    <thead>
+                        <th>Name</th>
+                        <th>Last name</th>
+                        <th>Email</th>
+                        <th>Phone</th>
+                    </thead>
+                    <tbody>
+                        <% for(let i = 0; i<accounts.length; i++) { %>
+                            <tr>
+                                <td><%= accounts[i].first_name %></td>
+                                <td><%= accounts[i].last_name %></td>
+                                <td><%= accounts[i].email %></td>
+                                <td><%= accounts[i].phone %></td>
+                            </tr>
+                        <% } %>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<%- include ('parcials/footer') -%>

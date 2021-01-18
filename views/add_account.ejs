@@ -1,0 +1,18 @@
+<%- include ('parcials/head') -%>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h3>Add account</h3>
+            <form action="/save_account" method="POST">
+                    <input type="text" name="first_name" placeholder="first name" class="form-control m-2">
+                    <input type="text" name="last_name" placeholder="last name" class="form-control m-2">
+                    <input type="email" name="email" placeholder="email" class="form-control m-2">
+                    <input type="text" name="phone" placeholder="phone" class="form-control m-2">
+                    <button class="btn btn-primary form-control m-2">Add</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include ('parcials/footer') -%>

@@ -1,0 +1,19 @@
+<%- include ('parcials/head') -%>
+
+<div class="container">
+    <div class="row">
+        <div class="col-6 offset-3">
+            <h3>Add account</h3>
+            <form action="/update_account" method="POST">
+                    <input type="hidden" name="id" value="<%= one_account._id %>">
+                    <input type="text" name="first_name" placeholder="first name" class="form-control m-2" value="<%= one_account.first_name %>">
+                    <input type="text" name="last_name" placeholder="last name" class="form-control m-2" value="<%= one_account.last_name %>">
+                    <input type="email" name="email" placeholder="email" class="form-control m-2" value="<%= one_account.email %>">
+                    <input type="text" name="phone" placeholder="phone" class="form-control m-2" value="<%= one_account.phone %>">
+                    <button class="btn btn-primary form-control m-2">Save</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+<%- include ('parcials/footer') -%>

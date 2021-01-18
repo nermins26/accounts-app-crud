@@ -1,0 +1,22 @@
+[
+    {
+        "first_name" : "Nermin",
+        "last_name" : "Sistek",
+        "email" : "nermin@gmail.com",
+        "phone" : "062 111 222"
+    },
+
+    {
+        "first_name" : "",
+        "last_name" : "Sistek",
+        "email" : "nermin@gmail.com",
+        "phone" : "062 111 222"
+    },
+
+    {
+        "first_name" : "Nermin",
+        "last_name" : "Sistek",
+        "email" : "nermin@gmail.com",
+        "phone" : "062 111 222"
+    }
+]
